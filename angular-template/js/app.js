@@ -8,9 +8,9 @@ angular.module('myApp').config(function($stateProvider, $urlRouterProvider) {
          templateUrl: '/home.html',
          controller: 'mainController'
       })
-      .state('page', {
-        url: '/page',
-        templateUrl: '/page.html',
+      .state('blog', {
+        url: '/blog',
+        templateUrl: '/blog.html',
         controller: 'mainController'
       })
       $urlRouterProvider.otherwise('/')
